@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box; }
+
+#app-container {
+  background-color: #47AE7C;
+  font-family: sans-serif; }
+
+img {
+  width: 100%;
+  display: block; }
+
+.columnscontainer {
+  font-size: 0; }
+
+/*  Bootstrap Clearfix */
+/*  Tablet  */
+@media (min-width: 767px) {
+  /* Column clear fix */
+  .col-lg-1:nth-child(12n+1),
+  .col-lg-2:nth-child(6n+1),
+  .col-lg-3:nth-child(4n+1),
+  .col-lg-4:nth-child(3n+1),
+  .col-lg-6:nth-child(2n+1),
+  .col-md-1:nth-child(12n+1),
+  .col-md-2:nth-child(6n+1),
+  .col-md-3:nth-child(4n+1),
+  .col-md-4:nth-child(3n+1),
+  .col-md-6:nth-child(2n+1) {
+    clear: none; }
+
+  .col-sm-1:nth-child(12n+1),
+  .col-sm-2:nth-child(6n+1),
+  .col-sm-3:nth-child(4n+1),
+  .col-sm-4:nth-child(3n+1),
+  .col-sm-6:nth-child(2n+1) {
+    clear: left; } }
+.navbar {
+  background-color: #222;
+  height: 54px;
+  left: 20px;
+  position: fixed;
+  top: 0; }
+
+.menubutton {
+  height: 100%;
+  text-align: center;
+  width: 50px; }
+
+.menubutton i {
+  color: #FFF;
+  font-size: 20px;
+  padding: 16px;
+  text-align: center; }
+
+.header {
+  background-color: #47AE7C;
+  height: 120px;
+  margin: 0;
+  text-align: center;
+  width: 100%; }
+
+.header h4 {
+  border: 2px solid rgba(255, 255, 255, 0.75);
+  color: rgba(200, 200, 200, 0.75);
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  padding: 13px 28px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: 24px;
+  vertical-align: middle; }
+
+.promoblock {
+  background-color: #ffffff; }
+
+.promoblurb {
+  background-color: #FFFFFF;
+  text-align: center;
+  width: 80%; }
+
+.promoblurb h1 {
+  font-family: "Palatino";
+  font-size: 32px;
+  margin-bottom: 16px;
+  margin-top: 0; }
+
+.promoblurb p {
+  color: #737373;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.75;
+  margin-bottom: 0; }
+
+.greenbody {
+  background-color: #47AE7C;
+  padding-bottom: 100px;
+  width: 100%; }
+
+.creators {
+  padding-top: 32px;
+  width: 60%; }
+
+.creators_infopane {
+  padding: 0;
+  text-align: center; }
+
+.creators_infopane p {
+  margin: 8px; }
+
+.twitterhandle {
+  color: #00E05C; }
+
+.taglineblock {
+  background-image: "../images/solrod-team-background.jpg";
+  background-size: cover;
+  width: 100%; }
+
+.tagline {
+  width: 50%; }
+
+@media screen and (min-width: 768px) {
+  .promoblock {
+    margin: 0 auto;
+    width: 80%; }
+
+  .creators {
+    width: 85%; } }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,35 @@
+// BASIC UNIVERSAL MARKUP
+*{box-sizing: border-box}
+
+#app-container{
+  background-color: #47AE7C;
+  font-family: sans-serif;
+}
+
+img {
+   width: 100%;
+   display: block;
+}
+
+.columnscontainer{font-size: 0;}
+
+// SASS IMPORTS
+@import "./variables";
+@import "./clearfix";
+@import "./navbar";
+@import "./header";
+@import "./promoblock";
+@import "./greenbody";
+@import "./creators";
+@import "./taglineblock";
+
+// NON-MOBILE VERSION
+@media screen and (min-width: 768px){
+  .promoblock{
+    margin: 0 auto;
+    width: 80%;
+  }
+  .creators{
+    width: 85%;
+  }
+}
