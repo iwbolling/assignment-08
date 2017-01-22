@@ -1,11 +1,16 @@
 .taglineblock{
-  background-image: "../images/solrod-team-background.jpg";
+  background-image: url(../images/solrod-team-background.jpg);
   background-size: cover;
-  // background-position: center;
-  // background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  text-align: center;
+  top: 0;
   width: 100%;
 }
 
 .tagline{
+  margin: 0 auto;
+  padding: 100px;
   width: 50%;
 }
