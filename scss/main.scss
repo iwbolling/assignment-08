@@ -7,8 +7,9 @@
 }
 
 img {
-   width: 100%;
-   display: block;
+  display: block;
+  padding: 0;
+  width: 100%;
 }
 
 .columnscontainer{font-size: 0;}
@@ -24,6 +25,8 @@ img {
 @import "./taglineblock";
 @import "./grants";
 @import "./projects";
+@import "./teamblock";
+@import "./footer";
 
 // NON-MOBILE VERSION
 @media screen and (min-width: 768px){
@@ -37,5 +40,13 @@ img {
   .grantblock{
     margin: auto;
     width: 65%;
+  }
+  .social{
+    bottom: -24px;
+    text-align: right;
+    width: 90%;
+  }
+  .social img{
+    width: 24px;
   }
 }

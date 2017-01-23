@@ -5,6 +5,7 @@
 
 .creators_infopane{
   @include creators_infopanestyle;
+  border: none;
   padding: 0;
   text-align: center;
 }

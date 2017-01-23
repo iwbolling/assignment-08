@@ -6,8 +6,9 @@
   font-family: sans-serif; }
 
 img {
-  width: 100%;
-  display: block; }
+  display: block;
+  padding: 0;
+  width: 100%; }
 
 .columnscontainer {
   font-size: 0; }
@@ -120,6 +121,7 @@ img {
   width: 60%; }
 
 .creators_infopane {
+  border: none;
   padding: 0;
   text-align: center; }
   .creators_infopane h4 {
@@ -168,7 +170,57 @@ img {
     margin: 0; }
 
 .projects_infopane {
+  border: none;
+  margin-top: 14px;
+  padding: 0;
   text-align: center; }
+  .projects_infopane h4 {
+    font-family: sans-serif;
+    font-size: 14px; }
+  .projects_infopane p {
+    font-family: sans-serif;
+    font-size: 12px; }
+
+.teamblock {
+  background-image: url(../images/solrod-drawingboard-background.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 64px;
+  min-height: 300px;
+  position: relative;
+  width: 100%; }
+
+.teambutton {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  width: 50%; }
+
+.teambutton button {
+  background-color: #677F9F;
+  border: 1px solid #677F9F;
+  border-radius: 8px;
+  color: #FFFFFF;
+  padding: 32px;
+  width: 100%; }
+
+.footer {
+  background: #FFFFFF;
+  height: 120px;
+  margin: 0;
+  width: 100%; }
+
+.social {
+  bottom: -20px;
+  position: relative;
+  text-align: left;
+  width: 100%; }
+
+.social img {
+  display: inline-block;
+  margin: 20px;
+  width: 32px; }
 
 @media screen and (min-width: 768px) {
   .promoblock {
@@ -180,6 +232,14 @@ img {
 
   .grantblock {
     margin: auto;
-    width: 65%; } }
+    width: 65%; }
+
+  .social {
+    bottom: -24px;
+    text-align: right;
+    width: 90%; }
+
+  .social img {
+    width: 24px; } }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,3 +1,12 @@
+// SCREEN SIZES
+@mixin tabletview {
+
+}
+
+@mixin desktopview {
+
+}
+
 // PROMO BLOCK H1
 @mixin promoblurbstyle {
   h1{
@@ -46,4 +55,15 @@
     font-weight: $pweight;
     line-height: $prule;
     margin: $pmargin;}
+}
+
+@mixin projects_infopanestyle {
+  h4{
+    font-family: $pipfont;
+    font-size: $piph4size;
+  }
+  p{
+    font-family: $pipfont;
+    font-size: $pipsize;
+  }
 }

@@ -1,0 +1,26 @@
+.teamblock{
+  background-image: url(../images/solrod-drawingboard-background.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 64px;
+  min-height: 300px;
+  position: relative;
+  width: 100%;
+}
+
+.teambutton{
+  position: absolute;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	top: 50%;
+  width: 50%;
+}
+
+.teambutton button{
+  background-color: #677F9F;
+  border: 1px solid #677F9F;
+  border-radius: 8px;
+  color: #FFFFFF;
+  padding: 32px;
+  width: 100%;
+}
