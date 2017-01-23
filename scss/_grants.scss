@@ -1,16 +1,7 @@
-.grantblock{
-  background: none;
-}
+.grantblock{background: none;}
 
 .grantsblurb{
+  @include grantsblurbstyle;
   text-align: center;
   width: 85%;
-}
-
-.grantsblurb h1{
-  @include grantsblurbheader;
-}
-
-.grantsblurb p{
-  @include grantstext;
 }

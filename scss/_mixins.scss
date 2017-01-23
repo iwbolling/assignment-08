@@ -1,32 +1,49 @@
 // PROMO BLOCK H1
-@mixin promoblurbheader {
-  color: $header1color;
-  font-family: $headerfont;
-  font-size: $headersize;
-  margin: $headermargin;
+@mixin promoblurbstyle {
+  h1{
+    color: $header1color;
+    font-family: $headerfont;
+    font-size: $headersize;
+    margin: $headermargin;
+  }
+  p{
+    color: $p1color;
+    font-family: $pfont;
+    font-size: $psize;
+    font-weight: $pweight;
+    line-height: $prule;
+    margin: $pmargin;
+  }
 }
 
-@mixin promotext {
-  color: $p1color;
-  font-family: $pfont;
-  font-size: $psize;
-  font-weight: $pweight;
-  line-height: $prule;
-  margin: $pmargin;
+@mixin creators_infopanestyle {
+  h4{
+    font-family: $cipfont;
+    font-size: $ciph4size;
+    margin: $cipmargin;
+  }
+  p{
+    font-family: $cipfont;
+    font-size: $cipsize;
+    margin: $cipmargin;
+  }
+  .twitterhandle{
+    color: $handlecolor;
+  }
 }
 
-@mixin grantsblurbheader {
-  color: $header2color;
-  font-family: $headerfont;
-  font-size: $headersize;
-  margin: $headermargin;
-}
-
-@mixin grantstext {
-  color: $p2color;
-  font-family: $pfont;
-  font-size: $psize;
-  font-weight: $pweight;
-  line-height: $prule;
-  margin: $pmargin;
+@mixin grantsblurbstyle {
+  h1{
+    color: $header2color;
+    font-family: $headerfont;
+    font-size: $headersize;
+    margin: $headermargin;
+  }
+  p{
+    color: $p2color;
+    font-family: $pfont;
+    font-size: $psize;
+    font-weight: $pweight;
+    line-height: $prule;
+    margin: $pmargin;}
 }

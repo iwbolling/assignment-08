@@ -1,15 +1,8 @@
 .promoblock{background-color: #ffffff;}
 
 .promoblurb{
+  @include promoblurbstyle;
   background-color: #FFFFFF;
   text-align: center;
   width: 80%;
-}
-
-.promoblurb h1{
-  @include promoblurbheader;
-}
-
-.promoblurb p{
-  @include promotext;
 }
