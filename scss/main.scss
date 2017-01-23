@@ -15,12 +15,14 @@ img {
 
 // SASS IMPORTS
 @import "./variables";
+@import "./mixins";
 @import "./clearfix";
 @import "./navbar";
 @import "./header";
 @import "./promoblock";
 @import "./creators";
 @import "./taglineblock";
+@import "./grants";
 
 // NON-MOBILE VERSION
 @media screen and (min-width: 768px){
@@ -30,5 +32,8 @@ img {
   }
   .creators{
     width: 85%;
+  }
+  .grantblock{
+    width: 65%;
   }
 }

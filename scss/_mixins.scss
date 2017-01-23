@@ -1,0 +1,32 @@
+// PROMO BLOCK H1
+@mixin promoblurbheader {
+  color: $header1color;
+  font-family: $headerfont;
+  font-size: $headersize;
+  margin: $headermargin;
+}
+
+@mixin promotext {
+  color: $p1color;
+  font-family: $pfont;
+  font-size: $psize;
+  font-weight: $pweight;
+  line-height: $prule;
+  margin: $pmargin;
+}
+
+@mixin grantsblurbheader {
+  color: $header2color;
+  font-family: $headerfont;
+  font-size: $headersize;
+  margin: $headermargin;
+}
+
+@mixin grantstext {
+  color: $p2color;
+  font-family: $pfont;
+  font-size: $psize;
+  font-weight: $pweight;
+  line-height: $prule;
+  margin: $pmargin;
+}
